@@ -55,7 +55,7 @@ const Table = ({ employees, handleEdit, handleDelete }) => {
               ))
           ) : (
             <tr>
-              <td colSpan={7}>No Employees</td>
+              <td colSpan={100}>No Employees</td>
             </tr>
           )}
         </tbody>
